@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jatin & Komal | Wedding Invitation</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#510e20;--gold:#c6a15b;--cream:#fff8ec;--green:#102e27}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:#542c2b;font-family:Montserrat,sans-serif}
+nav{position:fixed;top:0;width:100%;z-index:5;background:#fff8eced;padding:13px;text-align:center;box-shadow:0 2px 12px #0001}
+nav a{color:var(--wine);text-decoration:none;margin:0 9px;font-size:11px}
+section{padding:75px 22px;text-align:center}
+.hero{min-height:100vh;background:linear-gradient(#26081070,#26081080),url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1200') center/cover;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.eyebrow{letter-spacing:5px;font-size:11px;text-transform:uppercase}
+.names{font:clamp(55px,14vw,90px) 'Great Vibes',cursive;color:#e8c77e;margin:25px 0}
+.hero p{line-height:2;letter-spacing:2px}
+.btn{display:inline-block;background:var(--gold);color:#35131a;border:0;padding:14px 25px;text-decoration:none;border-radius:3px;font:12px Montserrat;letter-spacing:1px;cursor:pointer;margin:8px}
+h2{font:italic 36px 'Playfair Display';color:var(--wine)}
+h3{font:23px 'Playfair Display';color:var(--wine)}
+.gold{color:var(--gold)}
+.countdown{display:flex;justify-content:center;gap:12px;margin:28px auto;flex-wrap:wrap}
+.countdown div{background:white;padding:17px 12px;min-width:70px;box-shadow:0 4px 15px #0001}
+.countdown strong{display:block;font:28px 'Playfair Display';color:var(--wine)}
+.countdown small{font-size:9px;letter-spacing:2px}
+.intro{background:#fff}
+.story{max-width:550px;margin:auto;line-height:2}
+.events{background:#f4e8d8}
+.cards{max-width:800px;margin:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:15px}
+.card{background:#fff;padding:25px 12px;border:1px solid #ddc69c;box-shadow:0 5px 18px #0001}
+.card span{font-size:27px}
+.card p{font-size:12px;line-height:1.8}
+.details{background:var(--green);color:#fff}
+.details h2,.details h3{color:#e8c77e}
+.details p{line-height:2}
+.rsvp{background:#fff}
+input,textarea{width:100%;max-width:400px;padding:14px;margin:7px;border:1px solid #d7c4a5;background:#fffaf3;font:14px Montserrat}
+footer{background:#250c14;color:#e8c77e;padding:55px 15px;text-align:center}
+footer .names{font-size:55px}
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#home">HOME</a>
+<a href="#story">STORY</a>
+<a href="#events">EVENTS</a>
+<a href="#rsvp">RSVP</a>
+</nav>
+
+<section class="hero" id="home">
+<div class="eyebrow">Together with our families</div>
+<div class="names">Jatin <span class="gold">&</span> Komal</div>
+<p>REQUEST THE PLEASURE OF YOUR COMPANY<br>AT OUR WEDDING CELEBRATION</p>
+<p class="gold">26 NOVEMBER 2026</p>
+<a class="btn" href="#invitation">OPEN INVITATION ↓</a>
+</section>
+
+<section id="invitation">
+<div class="eyebrow">SAVE THE DATE</div>
+<h2>A Celebration of Love</h2>
+<p>26 November 2026</p>
+<div class="countdown">
+<div><strong id="days">--</strong><small>DAYS</small></div>
+<div><strong id="hours">--</strong><small>HOURS</small></div>
+<div><strong id="minutes">--</strong><small>MINUTES</small></div>
+<div><strong id="seconds">--</strong><small>SECONDS</small></div>
+</div>
+<p id="reveal" class="gold"></p>
+</section>
+
+<section class="intro" id="story">
+<div class="eyebrow">A NEW CHAPTER</div>
+<h2>Our Story</h2>
+<div class="story">
+<p>Two families, two journeys and two hearts coming together to begin a beautiful new chapter.</p>
+<p>With the blessings of our loved ones, we invite you to celebrate the beginning of our forever.</p>
+<div class="names">Jatin & Komal</div>
+</div>
+</section>
+
+<section class="events" id="events">
+<div class="eyebrow">CELEBRATE WITH US</div>
+<h2>Wedding Celebrations</h2>
+<p>Join us for moments filled with joy, colour and love.</p>
+<div class="cards">
+<div class="card"><span>🌼</span><h3>Haldi</h3><p>Details coming soon</p></div>
+<div class="card"><span>🌸</span><h3>Mayra</h3><p>Details coming soon</p></div>
+<div class="card"><span>🎶</span><h3>Sangeet</h3><p>Details coming soon</p></div>
+<div class="card"><span>💍</span><h3>Wedding</h3><p>26 November 2026<br>Time and venue coming soon</p></div>
+<div class="card"><span>✨</span><h3>Reception</h3><p>Details coming soon</p></div>
+</div>
+</section>
+
+<section class="details">
+<div class="eyebrow">JOIN OUR CELEBRATION</div>
+<h2>Venue Details</h2>
+<p>Our wedding venue and directions will be announced soon.</p>
+<p class="gold">We look forward to welcoming you!</p>
+</section>
+
+<section class="rsvp" id="rsvp">
+<div class="eyebrow">KINDLY REPLY</div>
+<h2>RSVP</h2>
+<p>It would mean the world to have you with us.</p>
+<form id="rsvpForm">
+<input id="guest" placeholder="Your full name" required>
+<input id="phone" placeholder="Phone number">
+<input id="guests" type="number" min="1" placeholder="Number of guests">
+<textarea id="message" placeholder="Your wishes for us"></textarea>
+<button class="btn" type="submit">SEND RESPONSE</button>
+</form>
+<p id="response"></p>
+</section>
+
+<footer>
+<div class="eyebrow">WITH LOVE</div>
+<div class="names">Jatin & Komal</div>
+<p>26 · 11 · 2026</p>
+<p>We can't wait to celebrate with you!</p>
+</footer>
+
+<script>
+const wedding=new Date(2026,10,26,0,0,0);
+function update(){
+let diff=wedding-new Date();
+if(diff<=0){
+['days','hours','minutes','seconds'].forEach(x=>document.getElementById(x).textContent='0');
+document.getElementById('reveal').textContent=
+new Date()<new Date(2026,10,27)
+?'Today, two hearts celebrate forever! ❤️'
+:'The celebrations may be over, but the memories last forever. Thank you for being part of our journey!';
+return;
+}
+document.getElementById('days').textContent=Math.floor(diff/86400000);
+document.getElementById('hours').textContent=Math.floor(diff/3600000)%24;
+document.getElementById('minutes').textContent=Math.floor(diff/60000)%60;
+document.getElementById('seconds').textContent=Math.floor(diff/1000)%60;
+document.getElementById('reveal').textContent='A beautiful beginning awaits...';
+}
+update();setInterval(update,1000);
+document.getElementById('rsvpForm').addEventListener('submit',function(e){
+e.preventDefault();
+document.getElementById('response').textContent=
+'Thank you, '+document.getElementById('guest').value+'! Your response has been noted on this page.';
+});
+</script>
+</body>
+</html>
